@@ -1,0 +1,4 @@
+Results for the Final Ensembled Model.
+	Log Loss: 0.423283775332
+	Weights: {'train_pred_5_none_85_70_22.csv': 0.314313671848508, 'train_pred_5_none_0_45_52.csv': 0.685686328151492}
+	Confirmed Log Loss: 0.423283775332

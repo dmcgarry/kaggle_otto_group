@@ -29,9 +29,3 @@ print "\tConfirmed Log Loss:",log_loss(target,finalTrainPred.values)
 finalTestPred.to_csv("../data/test_pred_blend.csv",index=False)
 
 
-# finalTrainPred = pd.DataFrame(applyWeights(train,weights),columns=target.unique())
-# finalTrainPred['Class_5'][finalTrainPred['Class_5'] < 0.001] = 0
-# finalTrainPred = finalTrainPred.apply(lambda x: x/sum(x),axis=1)
-# log_loss(target,finalTrainPred.values)
-
-
